@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography;
 
 namespace csharp_intro
 {
@@ -6,7 +7,12 @@ namespace csharp_intro
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hello alireza");
+
+            Naveh n1 =new Naveh(7);
+            Console.WriteLine(n1.Meth());
+
+
         }
     }
 }
+
